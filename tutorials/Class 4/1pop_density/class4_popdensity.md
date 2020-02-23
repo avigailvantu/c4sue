@@ -68,7 +68,7 @@ In a more broad note, population densities enable comparing between areas. The n
 We'll need to take the ACS population column and divide it by the "area" column that is a given in the boundaries data.
 * What do we mean when we say we're going to calculate Population Density? That's the formula we will apply:
  - Population Density(for zip code i) = (population(i)/area(i))
-Because the area units are large, we will multiply the result by 100000, so that our final population density formula will look like that: Population Density(for zip code i) = (population(i)/area(i))* 1000
+Because the area units are large, we will multiply the result by 100000, so that our final population density formula will look like that: Population Density(for zip code i) = (population(i)/area(i))* 100000. Note that we do so only for the ease of understanding and visualizing the data.
 
 Your field calculator should look something like this:
 
