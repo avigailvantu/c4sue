@@ -29,12 +29,12 @@ d. US State Boundaries (https://catalog.data.gov/dataset/tiger-line-shapefile-20
 * In the NYC open data platform, search 311 Service Requests from 2010 to Present. Click on the “Filter” section.
 * For the first filter condition, choose “Created Date” , “is between” : manually choose: “01/01/2018 12:00:00 AM” and “12/31/2018 12:00:00 AM”
 * Now Scroll down and click on “+ add another filter condition”: choose “Descriptor” is “Pothole”. Press “Enter” for the filters to apply. Make sure the filter worked in the bottom part of the browser, you should have about 66K results that match this search.
-![,](https://github.com/avigailvantu/SUE-Class/blob/master/Screen%20Shot%202019-11-13%20at%2011.59.47%20AM.png)
+![,](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class%204/potholes_assign/311_filter.png)
 
 * In the “Export” section download the data in a CSV format  
 
 #### 2. Import the 311 pothole complaints into QGIS
-![d](https://github.com/avigailvantu/SUE-Class/blob/master/Screen%20Shot%202019-11-13%20at%2012.09.14%20PM.png)
+![d](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class%204/potholes_assign/add_csv.png)
 
 
 * Choose the data
@@ -48,12 +48,12 @@ d. US State Boundaries (https://catalog.data.gov/dataset/tiger-line-shapefile-20
 
 
 * Go to Vector→ Analysis Tools → Count Points in Polygon
-![s](https://github.com/avigailvantu/SUE-Class/blob/master/Screen%20Shot%202019-11-18%20at%201.42.45%20PM.png)
+![s](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class%204/potholes_assign/analysis.png)
 
 * Choose the Census tracts layer in Polygons and 311 data in the points layer
 * Click “Run”
 
-![l](https://github.com/avigailvantu/SUE-Class/blob/master/Screen%20Shot%202019-11-19%20at%2012.47.20%20PM.png)
+![l](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class%204/potholes_assign/311_analysis.png)
 
 This process will take 10-20 minutes to run. The output of this analysis is a layer named “Count”. Once done, the layer will include a column named “NUMPOINTS” which is the count of the number of pothole complaints per census tract.
 
@@ -76,8 +76,7 @@ This process will take 10-20 minutes to run. The output of this analysis is a la
 - For esthetic reasons we will also remove the census tract boundary:
 Go to the Layer setting: Symbol → Choose “ Sample fill” -- Stroke color: Transparent Stroke →  Apply  
 
-* To export the map as an image open a new print layout:
-![](https://github.com/avigailvantu/SUE-Class/blob/master/Screen%20Shot%202019-11-19%20at%2012.58.19%20PM.png)
+* To export the map as an image open a new print layout.
 
 * Here you can add a legend, north arrow, title and a scale bar
 
