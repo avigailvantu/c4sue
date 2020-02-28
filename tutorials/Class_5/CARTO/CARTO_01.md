@@ -22,8 +22,8 @@ We’ll then apply these filters:
 3. Inspection date is between: 01/01/2019 and 12/31/2019
 4. This should result in 61,294 results
 
-  ![alt text](/filter1.png)
-  ![alt text](/filter2.png)
+  ![alt text](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class_5/CARTO/filter1.png)
+  ![alt text](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class_5/CARTO/filter2.png)
 
 5.  Export as “CSV”
 
@@ -34,7 +34,7 @@ We’ll then apply these filters:
 - CARTO should be able to identify the geometric column in the data to visualize.
 - Also note that CARTO displays the columns in A-Z order.
 
-![alt text](/carto_data.png)
+![alt text](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class_5/CARTO/carto_data.png)
 
 - Click on “Create Map” on the bottom right to view the data on a map
 - Once you do so all points should appear on your map
@@ -55,14 +55,14 @@ Let’s go through them one by one before symbolizing this layer
 
 Here’s how my initial map looks like:
 
-![alt text](/initialmap.png)
+![alt text](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class_5/CARTO/initialmap.png)
 
 #### Aggregation style 01:
   * Because there are so many points all around the borough, it is hard to draw any conclusion on trends solely by looking at the data as is.
   * To be able to view how the hazardous (C) housing violations are distributed in the city we can try different methods
   * First, aggregate the data by squares/hexbins. Doing so we see that east-north Brooklyn has much less violations than south and west Brooklyn. That is surely an interesting fact. But if we think about it totally makes sense and aligns with what we learned about standardization of the the data. These are all less populations dense areas.
 
-![alt text](/squares_agg.png)
+![alt text](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class_5/CARTO/squares_agg.png)
 
 #### Aggregation style 02:
   * Another way to view how the data distributes is by displaying a heat-map. Heat-maps are a technique to color code the data in order to represent different values in the data. Usually it would display clusters and less concentrated data.
@@ -99,7 +99,7 @@ OR NTA = 'Crown Heights South'
 ```
 to our code
 
-![alt text](/alltime.png)
+![alt text](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class_5/CARTO/wintertime.png)
 
 6. Because we are looking into the hazardous housing violations it would be interesting to display the violations that were recorded in the winter months. For the propose of this exercise we will assume that January through end of March are these months that are the most dangerous in term of lack in heat or hot water. To only view the winter months violations we can filter using the Inspections date column:
 
@@ -121,21 +121,21 @@ to our code
   - I also changed the map basemap. If you want to do so too, go to the main menu, where all layers are displayed. the basemap will be one of the layers. My default map is Voyager.
   - I changed it to “Positron” to have a gray backdrop to my map.
   - I also added a legend
-![alt text](/mapfinal.png)
+![alt text](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class_5/CARTO/mapfinal.png)
 
 ### 7.Publish your map:
     1. CARTO is different than QGIS since it is an interactive map tool that allows us to publish maps, on top of downloading them as an image. This means, we can easily embed a map on a web interface, or just share a URL of it to stack-holders.
     2. To publish this map we need to go to the layers view
     3. Then click on “Publish” on the bottom right side of the map.
 
-![alt text](/publish.png)
+![alt text](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class_5/CARTO/publish.png)
 
   4. After clicking on publish, you will be directed to a webpage where you will need to choose between "share with colleagues" and "publish".
   5. Before finalizing this, you will need to make the map public (NYU default maps are private).
   6. Go back to the layers page and click on the orange private on the top left
   7. when the dropdown opens, change from Private to Public
 
-  ![alt text](/private_public.png)
+  ![alt text](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class_5/CARTO/private_public.png)
 
   6. Finally we can publish!
   7. Click on publish again. This time when you go to the Publish tab you can access two options for publishing your map: embed or get a link.
