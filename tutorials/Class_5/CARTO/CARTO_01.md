@@ -110,7 +110,7 @@ to our code
 7. NOTE: to apply this filter to all chosen neighborhoods be sure to include the NTA commands inside parenthesis.
 8. We see that the most class C violations do actually happen during the coldest winter months.
 
-![alt text](/wintertime.png)
+![alt text](/https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class_5/CARTO/wintertime.png)
 
 ** notice the difference b/w both query results.
 
