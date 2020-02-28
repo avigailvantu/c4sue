@@ -124,9 +124,9 @@ to our code
 ![alt text](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class_5/CARTO/mapfinal.png)
 
 ### 7.Publish your map:
-    1. CARTO is different than QGIS since it is an interactive map tool that allows us to publish maps, on top of downloading them as an image. This means, we can easily embed a map on a web interface, or just share a URL of it to stack-holders.
-    2. To publish this map we need to go to the layers view
-    3. Then click on “Publish” on the bottom right side of the map.
+  1. CARTO is different than QGIS since it is an interactive map tool that allows us to publish maps, on top of downloading them as an image. This means, we can easily embed a map on a web interface, or just share a URL of it to stack-holders.
+  2. To publish this map we need to go to the layers view
+  3. Then click on “Publish” on the bottom right side of the map.
 
 ![alt text](https://github.com/avigailvantu/c4sue/blob/master/tutorials/Class_5/CARTO/publish.png)
 
