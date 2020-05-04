@@ -26,11 +26,13 @@ This aspect acknowledges that the different steps of the project are intertwined
 
 Remember all these are recommendations. You *do not have* to follow each and every one of these steps (or any!). If you do choose to use this structure I recommend dividing work between team members either horizontally OR vertically.
 
-1. Approach 1: In this sense, if you decide to divide work horizontally, each member could be responsible of acquiring, importing, reading cleaning, and understanding the structure and format of one dataset. Then, going into the next step of data merging, analysis and data viz there could be a collaboration between multiple members.
+1. **Approach 1:** if you decide to divide your work horizontally, each member could be responsible for acquiring, importing, reading, cleaning, and understanding the structure and format of *one* dataset (of a family of dataset, e.g. fetching data from 311 for 2 dif months or zip codes). Then, going into the next step of data merging, analysis and data viz there could be a collaboration between multiple members.
 
-2. Approach 2: you could also divide the work vertically. In this case you will each work on one step of the project. One person will be acquiring and cleaning, another person will merge, visualize etc..
+2. **Approach 2:** you could also divide the work vertically. In this case you will each work on one step of the project. One person will acquire and clean the data. Another person will merge and the third will visualize etc..
 
-By all means, there is no perfect method. No matter which one you end up choosing you will need to be strict about keeping the readme.md up-to-date with as much info as possible. For best results, the readme is a file should have all team members working on. My advice is: no matter which approach you decide to go with make sure to be coherent, as organized as possible and a good communicator.
+By all means, there is no such things as a *perfect method* to creating a data workflow. You need to find the method that works best for you and for the project. No matter which one you end up choosing you will need to be strict about keeping the readme.md up-to-date with as much info as possible. For best results, the readme file should include all team members comments. 
+
+**My advice:** no matter which approach you decide to go with make sure to be coherent, as organized as possible, and a good communicator.
 
 This repo includes *example* notebooks for a methods involving 3 steps:
 
@@ -38,4 +40,4 @@ This repo includes *example* notebooks for a methods involving 3 steps:
 2. merging_descriptive(2_1).ipynb
 3. viz 3_1.ipynb
 
-These represent the vertical structure. In reality each step can have more than one notebook.
+These represent the vertical structure. In reality each step can have more than one notebook (see image above).
