@@ -10,7 +10,7 @@ This repo is an *example* for how you can divide work and keep track of each oth
 Note that some projects can be managed using only one big notebook. However, in many cases when the analysis scales up one script can be messy and require running all cells to only compute a simple thing. If you have multiple analyses this method will most likely not work for you.
 
 ## Creating a data workflow using Jupyter Notebook for designated purposes.
-![alt text][workflow_jupyter.jpg]
+![alt text][https://github.com/avigailvantu/c4sue/blob/master/tutorials/class_13/workflow_jupyter.jpg]
 
 ### Project readme
 
@@ -38,4 +38,4 @@ This repo includes *example* notebooks for a methods involving 3 steps:
 2. merging_descriptive(2_1).ipynb
 3. viz 3_1.ipynb
 
-These represent the vertical structure. In reality each step can have more than one notebook. 
+These represent the vertical structure. In reality each step can have more than one notebook.
